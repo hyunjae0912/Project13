@@ -21,7 +21,8 @@ public class Ex1 {
 		Stream<String> stream2 = Stream.of(strArr);
 		Stream<String> stream3 = Arrays.stream(strArr);
 
-		// 기초 배열로부터 기본형 스트림 생성하기
+		// 기초 배열로부터 기본형 스트림 생성하기/
+		// 합개를 구하는 sum같을 걸 이용할 수 있다.
 		int[] intArr = { 1, 2, 3, 4, 5 };
 		IntStream stream4 = Arrays.stream(intArr); // Stream<Integer>가 아니라 IntStream이 반환됨
 

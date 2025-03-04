@@ -11,13 +11,13 @@ public class Quiz2 {
 			
 			@Override
 			public void helloPrint() {
-				System.out.println("안녕하세요");
+				System.out.println("안녕하세요!");
 			}
 		};
 		
 		hello.helloPrint();
 		
-		Hello hellolamda = ()->System.out.println("안녕하세요");
+		Hello hellolamda = ()->System.out.println("안녕하세요!!");
 		hellolamda.helloPrint();
 		
 		
@@ -37,7 +37,7 @@ class HelloImpl implements Hello {
 
 	@Override
 	public void helloPrint() {
-		System.out.println("안녕하세요");
+		System.out.println("안녕하세요!!!");
 	}
 	
 }
